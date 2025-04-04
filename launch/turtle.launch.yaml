@@ -1,0 +1,11 @@
+# File: turtle.launch.yaml
+launch:
+- node:
+    pkg: "turtlesim"
+    exec: "turtlesim_node"
+    name: "sim"
+
+- node:
+    pkg: "turtlesim"
+    exec: "draw_square"
+    name: "draw"
